@@ -1,0 +1,50 @@
+models object inside process there is export so we use export in process 
+
+object destruction : we use it inorder to exract property of other function , code simple hunxa
+
+# node built in models 
+* http createserver(): the function is used to create server , takes fucntion as argument and the function inside takes 
+  two arguments (req, response ) request and response 
+  const server = http.createServer((req,res)=>{
+
+  })
+
+  # Npm packages 
+* nodemon : It is used in order to minimize the hassel of server restarting 
+    when everytime we make changes 
+    image.png
+
+* express : instead of building server from sctrach we gonna use express which has many methods like get , post, etc etc 
+
+    get fucntion takes two arguments url and (req,res)
+
+
+
+
+
+    ................................................................
+
+    # Core Node JS
+    image.png 
+
+    # event loop 
+
+    # asynchronous programming 
+
+  readfile method takes two arguments which is file name and data of the file 
+  here we will be executing two functions and each fucntions has different runtime one takes longer another takes shorter 
+   what node js basically does is that it executes both fucntions but the return value of the second function is printed at first because
+  the first function is still running while another fucntion had beed already executed when the first is done the event is sent to stack and again and returned the value
+
+  image.png
+
+
+  # synchronous programming 
+  we are using synchronous function so the below fucntion only executes when the fist function is completed
+
+image.png
+
+# fucntional programming 
+
+why to use this new bird ? because we can divide any task to specific functions which makes code easy to understand 
+and cleaner
