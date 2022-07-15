@@ -48,3 +48,9 @@ image.png
 
 why to use this new bird ? because we can divide any task to specific functions which makes code easy to understand 
 and cleaner
+
+
+# Event emmiter :
+ It is one of the core module of node which is used to create a custom events and react to those events when emitted accordingly .
+
+ 
